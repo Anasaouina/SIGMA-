@@ -10,7 +10,7 @@ const formationRoutes = require('./routes/formation')
 const app = express();
 
 
-mongoose.connect('mongodb+srv://anasaouina:anasaouina@cluster0.klsedgj.mongodb.net/pfe_lprt?retryWrites=true&w=majority',
+mongoose.connect('',
 { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
