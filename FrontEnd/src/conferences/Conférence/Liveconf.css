@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --dark: #000;
+  --blue:hsla(227, 55%, 10%, 1);
+  --emerald: hsla(152, 60%, 55%, 1);
+  --majorelle-blue: hsla(254, 83%, 59%, 1);
+}
+
+.liveconf h1{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 3rem;
+}
+.liveconf h1 span {
+    color: var(--majorelle-blue);
+}
+.liveconf .iframe{
+    margin-top: 60px;
+    text-align: center;
+}

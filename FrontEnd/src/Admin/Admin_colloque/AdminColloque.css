@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --blue:hsla(227, 55%, 10%, 1);
+    --emerald: hsla(152, 60%, 55%, 1);
+    --majorelle-blue: hsla(254, 83%, 59%, 1);
+    --dark: #000;
+}
+
+.AdminColloque2 .formulaire{
+    margin-top: 4vh;
+    width: 50%;
+    margin-left: 40vh;
+    margin-bottom: 8rem;
+}
+.AdminColloque2 h1{
+    margin-left: 18rem ;
+}

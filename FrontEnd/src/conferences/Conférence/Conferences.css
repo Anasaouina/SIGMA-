@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --dark: #000;
+  --blue:hsla(227, 55%, 10%, 1);
+  --emerald: hsla(152, 60%, 55%, 1);
+  --majorelle-blue: hsla(254, 83%, 59%, 1);
+}
+div #img-conf{
+    filter: brightness(0.5);
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+}
+.superpose {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, -90%);
+    padding-top: 90rem;
+    text-transform: uppercase;
+    color: white;
+}
+.superpose h1{
+    font-size: 4.5rem;
+}
+.superpose h1 span {
+    color: var(--majorelle-blue);
+    text-shadow: 1px 1px 1px;
+}
+.conference.hover-zoom1 {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.conference .hover-zoom_image1 {
+    transition: all 0.5s ease;
+    width: 100%;
+    height: auto;
+}
+/* search */
+.search{
+    margin-top: 50px;
+    background-color:whitesmoke;
+    padding: 50px;
+}
+.search label{
+    font-size: 3rem;
+    color: var(--majorelle-blue);
+    margin: 25px;
+}
+.search input{
+    margin-top: 30px;
+    height: 4rem;
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+.search button{
+    height: 4rem;
+    margin-top: 30px;
+    margin-left: 0.5px;
+    border-radius:0rem 2rem 2rem 0rem;
+    background-color: var(--emerald);
+    color: white;
+    border-color: var(--emerald);
+}
+.conference .card{
+    width:71%;
+}
+.conference .card img{
+    width: 100%;
+    height: 100%;
+}
+.conference .card h4{
+    color: var(--majorelle-blue);
+    line-height: 2rem;
+}
+.conference .card h6{
+    color: var(--dark);
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+.conference .card p {
+    color: var(--dark);
+}
+.conference .container div {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 20px;
+}
+.conference .container div p{
+    color: black;
+    font-size: 1.2rem;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.conference .list-group {
+    width: 25rem;
+    position: absolute;
+    top: 121rem;
+    left: 78%;
+    transform: translate(-20%, -90%);
+}
+.conference .list-group h5{
+    font-size: 1.8rem;
+    color: var(--majorelle-blue);
+}
+.conference .list-group a{
+    height: 4rem;
+    padding-top: 20px;
+    border-color: white;
+    background-color: white;
+    font-size: 1.2rem;
+}
+.conference .list-group :hover{
+    color: var(--majorelle-blue);
+}
+.underline3{
+    width: 15rem;
+    height: 1px;
+    background-color: var(--dark);
+    margin: auto;
+    margin-top: 5px;
+}
+.conference .list-group button{
+    width: 10rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 48rem;
+    left: 40%;
+    transform: translate(-20%, -90%);
+    background-color: var(--majorelle-blue);
+    border-color: var(--majorelle-blue);
+    color: white;
+    font-size: 1.3rem;
+}
+.conference .list-group button:hover{
+    color: white;
+    border-color: var(--emerald);
+}
+.conference .svg1 svg{
+    margin-bottom: -100px;
+    margin-top: -3rem;
+}

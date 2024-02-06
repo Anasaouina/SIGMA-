@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+        --dark: #000;
+        --green: #344e41;
+        --green1: #3a5a40;
+        --green3 : #588157;
+        --green4:#a3b18a;
+        --withe : #fff;
+        --blue:hsla(227, 55%, 10%, 1);
+        --emerald: hsla(152, 60%, 55%, 1);
+        --majorelle-blue: hsla(254, 83%, 59%, 1);
+    }
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div #colloque{
+    filter: brightness(0.5);
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+}
+.colloque .texte-superpose {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-80%, -90%);
+    padding-top: 90rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .colloque .texte-superpose h1{
+    font-size: 5rem;
+  }
+  .colloque .collo h1{
+    font-size: 3rem;
+  }
+.colloque .collo img{
+    margin-top: 20px;
+}
+.colloque .collo h1 span{
+    color: var(--majorelle-blue);
+}
+.colloque .collo .cc {
+    margin-top: 6rem;
+}
+.card-collo h1{
+  text-align: center;
+}
+.colloque .card-collo{
+  width: 95%;
+  margin-top: 8rem;
+  color: var(--blue);
+}
+.colloque .card-collo .card{
+  margin-left: 20px;
+}
+.colloque p{
+  text-indent: 0rem;
+}

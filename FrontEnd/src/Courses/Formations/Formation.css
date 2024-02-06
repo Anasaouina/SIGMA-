@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --blue:hsla(227, 55%, 10%, 1);
+    --emerald: hsla(152, 60%, 55%, 1);
+    --majorelle-blue: hsla(254, 83%, 59%, 1);
+    --dark: #000;
+}
+
+.formation .container {
+    display: flex;
+    align-items:center;
+}
+.img-container img{
+    margin-right: 20px;
+    width: 35rem;
+}
+.formation .container h1 {
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.formation .container h1 span{
+    color:var(--majorelle-blue);
+}
+.formation #btn1 {
+    border-radius: 5px;
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background-color: var(--emerald);
+    border-color: var(--emerald);
+    margin-top: 20px;
+}
+.formation .video {
+    display: flex; 
+    margin-left: 6rem;
+    background-color: rgb(241, 235, 235);
+    padding: 20px;
+    margin: 0;
+}
+.formation .video iframe{
+   margin-left: 10%;
+}
+.formation .video h1{
+    color: var(--dark);
+    padding-top: 25px;
+}
+.formation .cours  {
+    justify-content: space-around;
+    width: 100%;
+}
+.formation .cours .card-img-top {
+    border-radius: 0;
+    object-fit: cover;
+    width: 100%;
+}
+.formation h1 {
+    color:var(--dark)
+}
+.formation .cours .card{
+    border-radius: 0;
+}
+.cours .card {
+    
+}
+.cours .card .d-grid button{
+    background-color: var(--majorelle-blue);
+    border-color: var(--majorelle-blue);
+}
+.cours .card .d-grid button:hover{
+    background-color: var(--blue) ;
+    border-color:var(--blue);
+}
+.cc {
+    margin-top: 4rem;
+}
+
+/*  */
+.info{
+    width: 80rem;
+    margin-top: 5%;
+}
+.info .card {
+    border: none;
+}
+.info .card h3{
+    color: var(--majorelle-blue);
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.info .card p{
+    padding-top: 10px;
+} 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .formation .video iframe{
+        width: 100%;
+        height: 50%;
+        margin-top: 10rem;
+    }
+    .formation .container .img-container img{
+        width: 11rem;
+    }
+    .formation .container h1 {
+        font-size: 0.9rem;
+    }
+    .formation #btn1{
+        width: 6rem;
+        height: 2.2rem;
+        font-size: 0.8rem;
+    }
+    svg{
+    margin-top: -6rem;
+    margin-bottom: -12.99rem;
+}
+    .formation .info{
+        display: flex;
+    flex-direction: column;
+    }
+    .formation .info .card {
+        width: 100%;
+    }
+    .formation .info .card img{
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .formation .video iframe{
+        width: 100%;
+        height: 50%;
+        margin-top: 10rem;
+    }
+    .formation .container .img-container img{
+        width: 14rem;
+        margin-left: 8rem;
+    }
+    .formation .container h1 {
+        font-size: 1.5rem;
+    }
+    .formation #btn1{
+        width: 7rem;
+        height: 2.5rem;
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+}
+

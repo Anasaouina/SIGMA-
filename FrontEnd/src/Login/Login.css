@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+:root {
+        --dark: #000;
+        --green: #344e41;
+        --green1: #3a5a40;
+        --green3 : #588157;
+        --green4:#a3b18a;
+        --withe : #fff;
+        --blue:hsla(227, 55%, 10%, 1);
+        --emerald: hsla(152, 60%, 55%, 1);
+        --majorelle-blue: hsla(254, 83%, 59%, 1);
+    }
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.login h1 {
+  font-size: 3.5rem;
+}
+.login .container .btn-move{
+  background-color: var(--majorelle-blue);
+  color: white;
+}
+.login {
+  margin-top: -3rem;
+}

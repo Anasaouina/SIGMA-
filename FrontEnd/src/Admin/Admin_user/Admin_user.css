@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --blue:hsla(227, 55%, 10%, 1);
+    --emerald: hsla(152, 60%, 55%, 1);
+    --majorelle-blue: hsla(254, 83%, 59%, 1);
+    --dark: #000;
+}
+
+
+.div2{
+    margin-top: 4rem;
+    margin-left: 25rem;
+   
+}

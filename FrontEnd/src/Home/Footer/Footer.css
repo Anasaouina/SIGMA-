@@ -1,0 +1,32 @@
+footer{
+    margin-top: 100px;
+}
+footer h4{
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+footer .container button {
+    background-color: var(--majorelle-blue);
+    border-color: var(--majorelle-blue);
+    color: white;
+}
+ .copyright{
+    color: white;    
+    background-color: rgb(31, 30, 30);
+}
+.copyright div{
+    padding-top: 15px;
+}
+@media screen and (max-width: 576px){
+
+    footer h4{
+        font-size: 1.2rem;
+    }
+    .underline1{
+        width: 20%;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }
+
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --blue:hsla(227, 55%, 10%, 1);
+    --emerald: hsla(152, 60%, 55%, 1);
+    --majorelle-blue: hsla(254, 83%, 59%, 1);
+    --dark: #000;
+}
+
+.NavAdmin .sidebar {
+    position: absolute;
+      background-color: #343a40;
+      height: 100vh; 
+      color: #fff; 
+}
+
+.NavAdmin .sidebar .nav-link {
+      color: #fff;
+      font-size: 1.1rem;
+}
+.NavAdmin .sidebar .nav-link:hover{
+    color: aqua;
+}
+.NavAdmin .sidebar .logo_admin h1{
+    margin-top: 20px;
+    font-size: 2rem;
+}
